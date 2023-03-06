@@ -8,7 +8,7 @@ class CreateCustomerProfileTransactionController extends ApiOperationBase
 {
     public function __construct(AnetApiRequestType $request)
     {
-        $responseType = 'net\authorize\api\contract\v1\CreateCustomerProfileResponse';
+        $responseType = 'net\authorize\api\contract\v1\CreateCustomerProfileTransactionResponse';
         parent::__construct($request, $responseType);
     }
 
